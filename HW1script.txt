@@ -1,0 +1,17 @@
+##!/bin/bash
+
+cd papkaaa1
+
+mkdir -p pap_{1..3}
+
+cd pap_1
+
+touch {t.txt,t2.txt,t3.txt,t4.json,t5.json}
+
+mkdir -p papk_{1..3}
+
+cd ..
+
+ls
+
+mv pap_1/{t.txt,t2.txt} pap_2
